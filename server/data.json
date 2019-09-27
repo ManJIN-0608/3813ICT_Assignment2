@@ -1,0 +1,83 @@
+{
+    "users": [
+        {
+            "username": "super",
+            "password": "123",
+            "email": "super@com.au",
+            "role": "superadmin"
+        },
+        {
+            "username": "james",
+            "password": "123",
+            "email": "james@com.au",
+            "role": "superadmin"
+        },
+        {
+            "username": "group",
+            "password": "123",
+            "email": "group@com.au",
+            "role": "groupadmin"
+        },
+        {
+            "username": "groupass",
+            "password": "123",
+            "email": "groupass@com.au",
+            "role": "groupassis"
+        },
+        {
+            "username": "member1",
+            "password": "123",
+            "email": "member1@com.au",
+            "role": "user"
+        },
+        {
+            "username": "nat",
+            "password": "123",
+            "email": "nat@com.au",
+            "role": "superadmin"
+        },
+        {
+            "username": "emma",
+            "password": "123",
+            "email": "emma@com.au",
+            "role": "user"
+        }
+    ],
+    "groups": [
+        {
+            "groupname": "2811ICT",
+            "users": [
+                "groupass",
+                "member1",
+                "james"
+            ]
+        },
+        {
+            "groupname": "3811ICT",
+            "users": []
+        },
+        {
+            "groupname": "3813ICT",
+            "users": []
+        }
+    ],
+    "channels": [
+        {
+            "channelname": "Lab",
+            "groupname": "2811ICT",
+            "users": [
+                "group"
+            ]
+        },
+        {
+            "channelname": "Assignment",
+            "groupname": "2811ICT",
+            "users": []
+        },
+        {
+            "channelname": "Vedio",
+            "groupname": "3813ICT",
+            "users": []
+        }
+    ]
+}
